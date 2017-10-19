@@ -1,7 +1,8 @@
 # Autofac.bug
 
-System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel.Primitives, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Nie moľna odnale«† okrelonego pliku.
-File name: 'System.ServiceModel.Primitives, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+```
+
+Unhandled Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.ServiceModel.Primitives, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. The system cannot find the file specified.
    at System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
    at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
    at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
@@ -17,4 +18,9 @@ File name: 'System.ServiceModel.Primitives, Version=4.2.0.0, Culture=neutral, Pu
    at Autofac.ContainerBuilder.Build(IComponentRegistry componentRegistry, Boolean excludeDefaultModules)
    at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
    at Autofac.ModuleRegistrationExtensions.RegisterAssemblyModules(IModuleRegistrar registrar, Type moduleType, Assembly[] assemblies)
-   at Program.Main(String[] args) in C:\1\A\Program.cs:line 26
+   at Program.Main(String[] args) in C:\1\A\Program.cs:line 34
+
+```
+
+
+
