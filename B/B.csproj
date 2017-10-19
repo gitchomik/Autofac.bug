@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputPath>..\bin</OutputPath>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>B</AssemblyName>
+    <OutputType>Library</OutputType>
+    <EnableDefaultContentItems>false</EnableDefaultContentItems>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.0' "/>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.6.2"/>
+
+    <PackageReference Include="System.Private.ServiceModel" Version="4.4.0"/>
+    <PackageReference Include="System.ServiceModel.Http" Version="4.4.0"/>
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.4.0"/>
+  </ItemGroup>
+</Project>
