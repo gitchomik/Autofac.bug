@@ -1,0 +1,2 @@
+# Autofac.bug
+Test
