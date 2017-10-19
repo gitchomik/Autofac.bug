@@ -12,7 +12,6 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.6.2"/>
 
-    <PackageReference Include="System.Private.ServiceModel" Version="4.4.0"/>
     <PackageReference Include="System.ServiceModel.Http" Version="4.4.0"/>
     <PackageReference Include="System.ServiceModel.Primitives" Version="4.4.0"/>
   </ItemGroup>
